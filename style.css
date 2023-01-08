@@ -4,18 +4,12 @@
 }
 
 body {
-    width: 1500px;
-    background-image: url("https://alimak.com/es/wp-content/uploads/sites/33/2020/11/Parts-hero-image.jpg");
+    /*background-image: url("https://alimak.com/es/wp-content/uploads/sites/33/2020/11/Parts-hero-image.jpg");
     background-size: cover;
-    background-attachment: fixed;
-}
-
-h1 {
-    text-align: center;
+    background-attachment: fixed;*/
 }
 
 h2 {
-    text-align: center;
     border: 20px;
 }
 
@@ -25,19 +19,12 @@ header {
 }
 
 .sketch {
-    height: 800px;
-    width: 500px;
+    height: 50vw;
+    width: 50vw;
 }
 
 .side-bar {
     color: aliceblue;
     background: black;
     padding: 10px;
-}
-
-@media screen and (min-width: 700px) {
-    .sketch {
-        height: 400px;
-        width: 400px;
-    }
 }
